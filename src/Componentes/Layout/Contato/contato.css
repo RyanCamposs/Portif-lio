@@ -1,0 +1,18 @@
+.contato_section {
+    width: 100%;
+    height: 30vh;
+    box-sizing: border-box;
+    box-shadow: inset 0px -10px  50px var(--secondary-background-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato_section a {
+    text-decoration: none;
+    border: 1px solid purple;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}

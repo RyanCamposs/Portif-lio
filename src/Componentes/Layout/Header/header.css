@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background-color);
+    box-shadow: rgb(182, 0, 0) 0px 0px 40px 0px;
+}
+
+.header-logo img {
+    width: 70px;
+}
+
+.header-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.header-btn a{
+    text-decoration: none;
+    font-family:'Source Code Pro', monospace;
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+}
+
+.header-btn a:hover {
+    color: var(--important-color);
+    transition: 1s;;
+}
