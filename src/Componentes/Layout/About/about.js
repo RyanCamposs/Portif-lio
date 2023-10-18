@@ -8,7 +8,8 @@ export default function About() {
             <div className="left-div">
                 <h2>Sobre Mim</h2>
                 <p>Me chamo Ryan, tenho 16 anos e estudo programação na parte do FrontEnd.</p>
-                <a href="#" className="about-link">Conheça meus projetos!</a>
+                <a href="#projects
+                " className="about-link">Conheça meus projetos!</a>
             </div>
 
             <div className="right-div">

@@ -9,6 +9,29 @@
   --important-color: #800000;
 }
 
+
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000; 
+  border-radius: 4px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #828282; 
+}
+
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #3498db #f1f1f1;
+}
+
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -22,3 +45,17 @@ body {
   padding: 0;
 }
 
+/* RESPONSIVO */
+
+/* #Main */
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  .btn {
+    font-size: 13px;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+}
