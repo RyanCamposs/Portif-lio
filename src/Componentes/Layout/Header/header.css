@@ -4,7 +4,9 @@
     justify-content: space-around;
     align-items: center;
     background-color: var(--background-color);
-    box-shadow: rgb(182, 0, 0) 0px 0px 40px 0px;
+    
+  
+
 }
 
 .header-logo img {

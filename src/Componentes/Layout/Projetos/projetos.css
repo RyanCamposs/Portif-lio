@@ -10,13 +10,12 @@
 }
 
 .container_title{
-    transform: rotate(-90deg);
-    padding: 4px;
+    padding: 10px;
 
 }
 
 .container_title:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: black;
     transform: rotate(0deg);
     transition: 1s;
@@ -26,6 +25,10 @@
 }
 
 .projetos_section h2 {
-    padding: 20px;
-    font-size: 35px;
+    
+    font-size: 33px;
+    width: 100%;
+    text-align: center;
+    
 }
+

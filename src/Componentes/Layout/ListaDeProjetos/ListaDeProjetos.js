@@ -1,5 +1,6 @@
 import React from 'react';
 import './listaprojetos.css';
+import '../../../App.css'
 
 
 export default function ListaDeProjetos(props) {

@@ -7,9 +7,12 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    
+    
 }
 
 .contato_section a {
+    
     text-decoration: none;
     border: 1px solid purple;
     border-radius: 15px;
