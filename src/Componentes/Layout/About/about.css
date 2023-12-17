@@ -4,7 +4,7 @@
     height: 50vh;
     color: black;
     display: flex;
-   
+   flex-direction:initial;
     align-items: center;
     text-align: center;
     box-shadow: inset 0px -10px  50px var(--secondary-background-color);
@@ -91,4 +91,11 @@
     background-color: white;
     border: 1px solid black;
     transition: 1s ease;
+}
+
+@media screen and (max-width: 1068px) {
+    .about-section{
+        flex-direction: column;
+    }
+   
 }

@@ -5,6 +5,7 @@ import '../../../App.css';
 export default function About() {
     return (
         <section className="about-section" id="about">
+           
             <div className="left-div">
                 <h2>Sobre Mim</h2>
                 <p>Me chamo Ryan, tenho 16 anos e estudo programação na parte do FrontEnd.</p>
@@ -27,7 +28,7 @@ export default function About() {
 
             </div>
 
-
+          
         </section>
     )
 }
